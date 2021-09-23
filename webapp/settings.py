@@ -147,4 +147,6 @@ SITE_ID = 1
 
 LOGIN_REDIRECT_URL = '/'
 
+ACCOUNT_ADAPTER = 'pages.models.MyAccountAdapter'
+
 CRISPY_TEMPLATE_PACK = "bootstrap4"
